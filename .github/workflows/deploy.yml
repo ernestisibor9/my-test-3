@@ -18,7 +18,7 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.SSH_PASSWORD }}
-          port: 21098
+          port: 37980
           script: |
             cd /home/nacpkiwb/deploy.nacpdean.org
             git pull origin main
